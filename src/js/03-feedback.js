@@ -56,7 +56,7 @@ function populateTextarea() {
     if (savedMessageParce) { 
         console.log(savedMessageParce);
         refs.textarea.value = savedMessageParce.message;
-        // console.log(refs.textarea.value);
+        console.log(refs.textarea.value);
     }
 
 }
@@ -68,7 +68,7 @@ function populateInput() {
     if (savedEmailParce) { 
         console.log(savedEmailParce);
         refs.form.email.value = savedEmailParce.email;
-        // console.log(refs.form.email.value);
+        console.log(refs.form.email.value);
     }
 
 }
